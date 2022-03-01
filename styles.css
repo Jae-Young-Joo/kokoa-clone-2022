@@ -1,0 +1,34 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Redressed&display=swap');
+@import "status-bar.css";
+@import "variables.css";
+@import "login.css";
+@import "nav-bar.css";
+@import "screen-header.css";
+@import "friends.css";
+@import "user-component.css";
+
+body{
+    font-family: "Open Sans", sans-serif;
+    height: 1000vh;
+    color: #2e363e;
+}
+
+.welcome-header{
+    margin: 90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome-header__title{
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.welcome-header__text{
+    width: 60%;
+    opacity: 0.7;
+}
+
